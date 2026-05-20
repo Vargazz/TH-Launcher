@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\THLauncher.Vendas.Domain\THLauncher.Vendas.Domain.csproj" />
+    <ProjectReference Include="..\THLauncher.Clientes.Application\THLauncher.Clientes.Application.csproj" />
+    <ProjectReference Include="..\THLauncher.Produtos.Application\THLauncher.Produtos.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
